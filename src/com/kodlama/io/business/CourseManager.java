@@ -38,5 +38,6 @@ public class CourseManager {
             logger.log(Double.toString(course.getPrice()));
         }
 
+
     }
 }

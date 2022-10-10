@@ -3,7 +3,6 @@ package com.kodlama.io.business;
 import com.kodlama.io.core.ILogger;
 import com.kodlama.io.dataAccess.interfaceDao.ICategoryDao;
 import com.kodlama.io.entities.Category;
-
 import java.util.List;
 
 public class CategoryManager {
