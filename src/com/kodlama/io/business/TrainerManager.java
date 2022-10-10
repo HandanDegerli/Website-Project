@@ -4,7 +4,6 @@ import com.kodlama.io.core.ILogger;
 import com.kodlama.io.dataAccess.interfaceDao.ITrainerDao;
 import com.kodlama.io.entities.Trainer;
 
-
 public class TrainerManager {
 
         private final ITrainerDao trainerDao;
