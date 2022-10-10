@@ -6,9 +6,9 @@ import com.kodlama.io.entities.Course;
 import java.util.List;
 
 public class CourseManager {
-    private ICourseDao courseDao;
-    private ILogger[] loggers;
-    private List<Course> courses;
+    private final ICourseDao courseDao;
+    private final ILogger[] loggers;
+    private final List<Course> courses;
 
     public CourseManager(ICourseDao courseDao, ILogger[] loggers, List<Course> courses) {
         this.courseDao = courseDao;

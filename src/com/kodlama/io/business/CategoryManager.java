@@ -8,9 +8,9 @@ import com.kodlama.io.entities.Category;
 import java.util.List;
 
 public class CategoryManager {
-    private ICategoryDao categoryDao;
-    private ILogger[] loggers;
-    private List<Category> categories;
+    private final ICategoryDao categoryDao;
+    private final ILogger[] loggers;
+    private final List<Category> categories;
 
     public CategoryManager( ICategoryDao categoryDao, ILogger[] loggers, List<Category> categories){
         this.categoryDao = categoryDao;
@@ -33,26 +33,4 @@ public class CategoryManager {
             logger.log(category.getCategoryName());
         }
     }
-
-
-
-
-
-
-
-
-
-//    private List<String> categoryNames;
-//
-//    public CategoryManager(List<String> categoryNames){
-//        this.categoryNames = categoryNames;
-//    }
-//
-//    public List<String> getCategoryNames() {
-//        return categoryNames;
-//    }
-//
-//    public void setCategoryNames(List<String> categoryNames) {
-//        this.categoryNames = categoryNames;
-//    }
 }

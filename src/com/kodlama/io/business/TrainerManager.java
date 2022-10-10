@@ -7,8 +7,8 @@ import com.kodlama.io.entities.Trainer;
 
 public class TrainerManager {
 
-        ITrainerDao trainerDao;
-        ILogger[] loggers;
+        private final ITrainerDao trainerDao;
+        private final ILogger[] loggers;
 
         public TrainerManager (ITrainerDao trainerDao, ILogger[] loggers){
             this.trainerDao = trainerDao;
